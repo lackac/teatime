@@ -1,0 +1,6 @@
+content	teatime	content/
+locale	teatime	en-US	locale/en-US/
+locale	teatime	hu-HU	locale/hu-HU/
+skin	teatime	classic/1.0	skin/
+overlay	chrome://browser/content/browser.xul	chrome://teatime/content/firefoxOverlay.xul
+style	chrome://global/content/customizeToolbar.xul	chrome://teatime/skin/overlay.css

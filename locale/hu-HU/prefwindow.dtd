@@ -1,0 +1,5 @@
+<!ENTITY prefwindow.title "Tea Time beállítások">
+<!ENTITY pane1.title "Tea Time beállítások">
+<!ENTITY pref_delete_read.label "Könyvjelző automatikus törlése">
+<!ENTITY pref_delete_read.accesskey "t">
+<!ENTITY pref_delete_read_tip "A lefűzött könyvjelzők nem törlődnek">

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  - Copyright (c) 2008 László Bácsi <teatime@lackac.name>
+  -
+  - Permission to use, copy, modify, and distribute this software for any
+  - purpose with or without fee is hereby granted, provided that the above
+  - copyright notice and this permission notice appear in all copies.
+  -
+  - THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+  - WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+  - MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+  - ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+  - WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+  - ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+  - OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+  - -->
+
+<?xml-stylesheet href="chrome://teatime/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://teatime/locale/teatime.dtd">
+<overlay id="teatime-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript" src="chrome://teatime/content/overlay.js"/>
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="teatime-strings" src="chrome://teatime/locale/teatime.properties"/>
+  </stringbundleset>
+
+  <keyset>
+    <key id="teatime-random-key" modifiers="accel" key="E" oncommand="teatime.onToolbarButtonCommand({});"/>
+    <key id="teatime-random-key-newtab" modifiers="accel alt" key="E" oncommand="teatime.onToolbarButtonCommand({metaKey:true, ctrlKey:true});"/>
+  </keyset>
+
+  <toolbarpalette id="BrowserToolbarPalette">
+    <toolbarbutton id="teatime-toolbar-button"
+      label="&teatimeToolbar.label;"
+      tooltiptext="&teatimeToolbar.tooltip;"
+      oncommand="teatime.onToolbarButtonCommand(event)"
+      onclick="checkForMiddleClick(this, event)"
+      type="menu-button"
+      class="toolbarbutton-1 chromeclass-toolbar-additional">
+      <menupopup id="teatime-reading-list" onpopupshowing="teatime.populateReadingList(); event.stopPropagation();">
+      </menupopup>
+    </toolbarbutton>
+  </toolbarpalette>
+</overlay>

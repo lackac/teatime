@@ -1,0 +1,6 @@
+content	teatime	jar:chrome/teatime.jar!/content/
+locale	teatime	en-US	jar:chrome/teatime.jar!/locale/en-US/
+locale	teatime	hu-HU	jar:chrome/teatime.jar!/locale/hu-HU/
+skin	teatime	classic/1.0	jar:chrome/teatime.jar!/skin/
+overlay	chrome://browser/content/browser.xul	chrome://teatime/content/firefoxOverlay.xul
+style	chrome://global/content/customizeToolbar.xul	chrome://teatime/skin/overlay.css

@@ -1,0 +1,5 @@
+<!ENTITY prefwindow.title "Tea Time preferences">
+<!ENTITY pane1.title "Tea Time preferences">
+<!ENTITY pref_delete_read.label "Autodelete read bookmarks">
+<!ENTITY pref_delete_read.accesskey "d">
+<!ENTITY pref_delete_read_tip "Filed Bookmarks won't be removed">
