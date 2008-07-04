@@ -1,0 +1,39 @@
+= Tea Time
+
+Tea Time is a Firefox 3 extension. Don't have time to read the articles in all of
+those open tabs right now? Don't let them frustrate you. Just click on the star
+button in the URL bar and close the tab. Later if you have time, click on the TeaTime
+icon in you toolbar which will give you a random page from your Unfiled Bookmarks
+or Bookmarks tagged `later'. Based on the idea of the {"Read It Later"}[http://www.ideashower.com/ideas/launched/read-it-later/]
+extension. Supports the new Bookmark System of Firefox 3.
+
+== Requirements
+
+Callout supports Firefox 3+.
+
+== Usage
+
+To mark a page for later reading click on the Star icon in the Location bar or hit
+the Bookmark this page shortcut (Ctrl+D or Cmd+D on a Mac) and add `later' to the tags.
+
+You can get a random page from your reading list by hitting Ctrl+E (or Cmd+E on a Mac).
+If you want to open the page in a new tab hold down the Alt key as well. If you add
+the Tea Time button to your toolbar you can open a new page by clicking on the icon
+(Ctrl or Cmd click to open in a new tab). Also there is a dropdown menu with your
+reading list next to the icon.
+
+== Disclaimer
+
+This extension was created when the "Read It Later" extension didn't support Firefox 3.
+Now that they have a new version which supports the new Bookmark system I decided
+to keep Tea Time around. They work well together (Read It Later can be configured
+to use the Unfiled Bookmarks folder).
+
+If you want something dead simple I suggest Tea Time. If you want more features
+(e.g. offline support, rss feed) I suggest you try out the new version of Read It Later.
+
+== Credits
+ 
+Author:: {László Bácsi}[http://lackac.name]
+Hungarian blog post:: http://lackac.hu/articles/2008/02/08/teahoz-read-it-later-firefox-3-ra
+Original idea:: http://www.ideashower.com/ideas/launched/read-it-later/
