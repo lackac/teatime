@@ -17,10 +17,11 @@ To mark a page for later reading click on the Star icon in the Location bar or h
 the Bookmark this page shortcut (Ctrl+D or Cmd+D on a Mac) and add `later' to the tags.
 
 You can get a random page from your reading list by hitting Ctrl+E (or Cmd+E on a Mac).
-If you want to open the page in a new tab hold down the Alt key as well. If you add
-the Tea Time button to your toolbar you can open a new page by clicking on the icon
-(Ctrl or Cmd click to open in a new tab). Also there is a dropdown menu with your
-reading list next to the icon.
+If you want to open the page in a new tab hold down the Alt key as well.
+
+If you add the Tea Time button to your toolbar you can also open a new page by
+clicking on the icon (Ctrl or Cmd click to open in a new tab). There is also a
+dropdown menu with your reading list next to the icon.
 
 == Disclaimer
 
